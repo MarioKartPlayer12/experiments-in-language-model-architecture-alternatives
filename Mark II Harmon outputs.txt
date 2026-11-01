@@ -1,0 +1,86 @@
+[ekg] saved ekg_data_preview.png
+[KRE-Form1] device=cuda  params=64,421
+  step     1/3000  loss=0.08178  (0.6s)
+  step   200/3000  loss=0.01942  (8.1s)
+  step   400/3000  loss=0.00611  (15.5s)
+  step   600/3000  loss=0.00629  (23.0s)
+  step   800/3000  loss=0.00620  (30.4s)
+  step  1000/3000  loss=0.00639  (37.9s)
+  step  1200/3000  loss=0.00623  (45.3s)
+  step  1400/3000  loss=0.00607  (52.8s)
+  step  1600/3000  loss=0.00604  (60.4s)
+  step  1800/3000  loss=0.00618  (68.0s)
+  step  2000/3000  loss=0.00615  (75.6s)
+  step  2200/3000  loss=0.00613  (83.2s)
+  step  2400/3000  loss=0.00592  (90.7s)
+  step  2600/3000  loss=0.00612  (98.2s)
+  step  2800/3000  loss=0.00610  (105.7s)
+  step  3000/3000  loss=0.00618  (113.1s)
+[KRE-Form1] saved kre_loss.png and kre_pred.png
+[KRE-Form1] saved checkpoint to kre_form1.pt
+
+[stress] mode = baseline
+  step  500  loss=0.01025
+  step 1000  loss=0.00625
+  step 1500  loss=0.00621
+  (34.7s)  final_loss=0.00636
+[stress] saved stress_baseline.png
+
+[stress] mode = wander
+  step  500  loss=0.00830
+  step 1000  loss=0.00781
+  step 1500  loss=0.00786
+  (36.1s)  final_loss=0.00783
+[stress] saved stress_wander.png
+
+[stress] mode = noise
+  step  500  loss=0.01316
+  step 1000  loss=0.01261
+  step 1500  loss=0.01243
+  (36.6s)  final_loss=0.01222
+[stress] saved stress_noise.png
+
+[stress] mode = vrr
+  step  500  loss=0.00427
+  step 1000  loss=0.00427
+  step 1500  loss=0.00426
+  (36.8s)  final_loss=0.00429
+[stress] saved stress_vrr.png
+
+[stress] mode = morphology
+  step  500  loss=0.03663
+  step 1000  loss=0.03778
+  step 1500  loss=0.03704
+  (30.0s)  final_loss=0.03865
+[stress] saved stress_morphology.png
+
+[stress] mode = pvc_chain
+  step  500  loss=0.00113
+  step 1000  loss=0.00000
+  step 1500  loss=0.00000
+  (30.0s)  final_loss=0.00000
+[stress] saved stress_pvc_chain.png
+
+[stress] mode = af_run
+  step  500  loss=0.00566
+  step 1000  loss=0.00427
+  step 1500  loss=0.00422
+  (33.8s)  final_loss=0.00428
+[stress] saved stress_af_run.png
+
+[stress] mode = unaligned
+  step  500  loss=0.01613
+  step 1000  loss=0.00701
+  step 1500  loss=0.00698
+  (37.9s)  final_loss=0.00702
+[stress] saved stress_unaligned.png
+
+[stress] mode = all
+  step  500  loss=0.04533
+  step 1000  loss=0.04334
+  step 1500  loss=0.04437
+  (37.9s)  final_loss=0.04468
+[stress] saved stress_all.png
+[KRE-Form1] saved checkpoint to kre_form1_stress.pt
+
+[stress] all modes attempted. PNGs in working directory.

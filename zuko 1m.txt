@@ -1,0 +1,372 @@
+RTX PRO 45001x
+
+
+[train] corpus=3,975,426 chars  tokens=894,281  vocab=13000
+[train] device=cuda  params=3,569,418
+  step     1/50000  ce=57.4825  br=0.484  (0.7s)
+  step   200/50000  ce=8.7420  br=0.483  (1.9s)
+  step   400/50000  ce=7.7044  br=0.454  (3.0s)
+  [eval] step 500  val_perplexity=1915.08
+  step   600/50000  ce=7.6136  br=0.427  (4.1s)
+  step   800/50000  ce=7.6205  br=0.404  (5.2s)
+  step  1000/50000  ce=7.6070  br=0.388  (6.3s)
+  [eval] step 1000  val_perplexity=1968.93
+  step  1200/50000  ce=7.6040  br=0.371  (7.5s)
+  step  1400/50000  ce=7.6517  br=0.360  (8.6s)
+  [eval] step 1500  val_perplexity=1768.43
+  step  1600/50000  ce=7.7290  br=0.343  (9.7s)
+  step  1800/50000  ce=7.5837  br=0.335  (10.8s)
+  step  2000/50000  ce=7.5759  br=0.323  (11.9s)
+  [eval] step 2000  val_perplexity=1767.03
+  step  2200/50000  ce=7.6013  br=0.313  (13.0s)
+  step  2400/50000  ce=7.5858  br=0.305  (14.1s)
+  [eval] step 2500  val_perplexity=2522.67
+  step  2600/50000  ce=7.6086  br=0.299  (15.2s)
+  step  2800/50000  ce=7.5763  br=0.288  (16.3s)
+  step  3000/50000  ce=7.5338  br=0.285  (17.4s)
+  [eval] step 3000  val_perplexity=1711.93
+  step  3200/50000  ce=7.5512  br=0.278  (18.6s)
+  step  3400/50000  ce=7.6189  br=0.272  (19.6s)
+  [eval] step 3500  val_perplexity=1932.92
+  step  3600/50000  ce=7.5614  br=0.265  (20.7s)
+  step  3800/50000  ce=7.6435  br=0.261  (21.9s)
+  step  4000/50000  ce=7.5106  br=0.255  (23.0s)
+  [eval] step 4000  val_perplexity=1640.32
+  step  4200/50000  ce=7.5536  br=0.249  (24.2s)
+  step  4400/50000  ce=7.4637  br=0.245  (25.4s)
+  [eval] step 4500  val_perplexity=1734.62
+  step  4600/50000  ce=7.5107  br=0.238  (26.5s)
+  step  4800/50000  ce=7.5362  br=0.237  (27.6s)
+  step  5000/50000  ce=7.5144  br=0.231  (28.7s)
+  [eval] step 5000  val_perplexity=1693.08
+  step  5200/50000  ce=7.4405  br=0.226  (29.9s)
+  step  5400/50000  ce=7.4272  br=0.224  (31.0s)
+  [eval] step 5500  val_perplexity=1844.02
+  step  5600/50000  ce=7.4169  br=0.220  (32.1s)
+  step  5800/50000  ce=7.5117  br=0.218  (33.3s)
+  step  6000/50000  ce=7.3759  br=0.214  (34.4s)
+  [eval] step 6000  val_perplexity=1605.55
+  step  6200/50000  ce=7.3604  br=0.211  (35.6s)
+  step  6400/50000  ce=7.3862  br=0.205  (36.7s)
+  [eval] step 6500  val_perplexity=1631.67
+  step  6600/50000  ce=7.3598  br=0.205  (37.8s)
+  step  6800/50000  ce=7.3326  br=0.204  (38.9s)
+  step  7000/50000  ce=7.3421  br=0.201  (40.0s)
+  [eval] step 7000  val_perplexity=1509.59
+  step  7200/50000  ce=7.3311  br=0.200  (41.1s)
+  step  7400/50000  ce=7.3010  br=0.193  (42.1s)
+  [eval] step 7500  val_perplexity=1338.71
+  step  7600/50000  ce=7.2915  br=0.194  (43.2s)
+  step  7800/50000  ce=7.2821  br=0.194  (44.3s)
+  step  8000/50000  ce=7.2553  br=0.196  (45.4s)
+  [eval] step 8000  val_perplexity=1326.50
+  step  8200/50000  ce=7.2393  br=0.194  (46.6s)
+  step  8400/50000  ce=7.2291  br=0.192  (47.6s)
+  [eval] step 8500  val_perplexity=1279.39
+  step  8600/50000  ce=7.2275  br=0.192  (48.7s)
+  step  8800/50000  ce=7.2505  br=0.190  (49.8s)
+  step  9000/50000  ce=7.2243  br=0.191  (50.9s)
+  [eval] step 9000  val_perplexity=1298.40
+  step  9200/50000  ce=7.1879  br=0.190  (52.1s)
+  step  9400/50000  ce=7.1843  br=0.187  (53.1s)
+  [eval] step 9500  val_perplexity=1373.48
+  step  9600/50000  ce=7.1557  br=0.187  (54.2s)
+  step  9800/50000  ce=7.1903  br=0.187  (55.3s)
+  step 10000/50000  ce=7.1721  br=0.186  (56.4s)
+  [eval] step 10000  val_perplexity=1304.65
+  step 10200/50000  ce=7.1419  br=0.185  (57.5s)
+  step 10400/50000  ce=7.1191  br=0.189  (58.7s)
+  [eval] step 10500  val_perplexity=1415.27
+  step 10600/50000  ce=7.1158  br=0.189  (59.8s)
+  step 10800/50000  ce=7.0908  br=0.186  (60.8s)
+  step 11000/50000  ce=7.1212  br=0.186  (61.9s)
+  [eval] step 11000  val_perplexity=1204.93
+  step 11200/50000  ce=7.0896  br=0.184  (63.0s)
+  step 11400/50000  ce=7.0954  br=0.186  (64.3s)
+  [eval] step 11500  val_perplexity=1220.25
+  step 11600/50000  ce=7.0711  br=0.184  (65.4s)
+  step 11800/50000  ce=7.0835  br=0.185  (66.5s)
+  step 12000/50000  ce=7.0529  br=0.185  (67.6s)
+  [eval] step 12000  val_perplexity=1132.22
+  step 12200/50000  ce=7.0489  br=0.186  (68.7s)
+  step 12400/50000  ce=7.0517  br=0.185  (69.8s)
+  [eval] step 12500  val_perplexity=1143.75
+  step 12600/50000  ce=7.0331  br=0.185  (70.9s)
+  step 12800/50000  ce=7.0105  br=0.183  (72.0s)
+  step 13000/50000  ce=7.0025  br=0.186  (73.1s)
+  [eval] step 13000  val_perplexity=1098.79
+  step 13200/50000  ce=7.0097  br=0.186  (74.2s)
+  step 13400/50000  ce=6.9683  br=0.186  (75.2s)
+  [eval] step 13500  val_perplexity=1113.82
+  step 13600/50000  ce=6.9738  br=0.187  (76.3s)
+  step 13800/50000  ce=6.9509  br=0.187  (77.4s)
+  step 14000/50000  ce=6.9279  br=0.187  (78.5s)
+  [eval] step 14000  val_perplexity=993.01
+  step 14200/50000  ce=6.9275  br=0.188  (79.6s)
+  step 14400/50000  ce=6.9158  br=0.189  (80.7s)
+  [eval] step 14500  val_perplexity=1057.97
+  step 14600/50000  ce=6.9102  br=0.188  (81.9s)
+  step 14800/50000  ce=6.9091  br=0.189  (83.1s)
+  step 15000/50000  ce=6.8805  br=0.189  (84.2s)
+  [eval] step 15000  val_perplexity=945.79
+  step 15200/50000  ce=6.8765  br=0.188  (85.3s)
+  step 15400/50000  ce=6.8589  br=0.190  (86.4s)
+  [eval] step 15500  val_perplexity=1010.26
+  step 15600/50000  ce=6.8559  br=0.191  (87.5s)
+  step 15800/50000  ce=6.8378  br=0.189  (88.6s)
+  step 16000/50000  ce=6.8440  br=0.189  (89.7s)
+  [eval] step 16000  val_perplexity=932.46
+  step 16200/50000  ce=6.8347  br=0.190  (90.9s)
+  step 16400/50000  ce=6.8220  br=0.188  (91.9s)
+  [eval] step 16500  val_perplexity=913.08
+  step 16600/50000  ce=6.8101  br=0.191  (93.1s)
+  step 16800/50000  ce=6.8122  br=0.191  (94.2s)
+  step 17000/50000  ce=6.7993  br=0.191  (95.3s)
+  [eval] step 17000  val_perplexity=901.45
+  step 17200/50000  ce=6.7821  br=0.190  (96.5s)
+  step 17400/50000  ce=6.7813  br=0.190  (97.6s)
+  [eval] step 17500  val_perplexity=891.59
+  step 17600/50000  ce=6.7879  br=0.190  (98.7s)
+  step 17800/50000  ce=6.7576  br=0.190  (99.8s)
+  step 18000/50000  ce=6.7561  br=0.191  (101.0s)
+  [eval] step 18000  val_perplexity=812.45
+  step 18200/50000  ce=6.7315  br=0.191  (102.1s)
+  step 18400/50000  ce=6.7311  br=0.191  (103.2s)
+  [eval] step 18500  val_perplexity=836.58
+  step 18600/50000  ce=6.7390  br=0.190  (104.5s)
+  step 18800/50000  ce=6.7303  br=0.190  (105.9s)
+  step 19000/50000  ce=6.7144  br=0.191  (107.2s)
+  [eval] step 19000  val_perplexity=814.64
+  step 19200/50000  ce=6.7101  br=0.191  (108.6s)
+  step 19400/50000  ce=6.7000  br=0.189  (110.0s)
+  [eval] step 19500  val_perplexity=736.08
+  step 19600/50000  ce=6.6960  br=0.191  (111.4s)
+  step 19800/50000  ce=6.6891  br=0.190  (112.5s)
+  step 20000/50000  ce=6.6827  br=0.189  (113.7s)
+  [eval] step 20000  val_perplexity=809.09
+  step 20200/50000  ce=6.6893  br=0.189  (115.2s)
+  step 20400/50000  ce=6.6757  br=0.191  (116.3s)
+  [eval] step 20500  val_perplexity=762.75
+  step 20600/50000  ce=6.6545  br=0.190  (117.6s)
+  step 20800/50000  ce=6.6596  br=0.189  (118.9s)
+  step 21000/50000  ce=6.6430  br=0.190  (120.3s)
+  [eval] step 21000  val_perplexity=800.32
+  step 21200/50000  ce=6.6296  br=0.191  (121.6s)
+  step 21400/50000  ce=6.6354  br=0.189  (122.9s)
+  [eval] step 21500  val_perplexity=761.59
+  step 21600/50000  ce=6.6278  br=0.189  (124.0s)
+  step 21800/50000  ce=6.6231  br=0.190  (125.3s)
+  step 22000/50000  ce=6.6062  br=0.190  (126.4s)
+  [eval] step 22000  val_perplexity=737.35
+  step 22200/50000  ce=6.6040  br=0.190  (127.5s)
+  step 22400/50000  ce=6.6016  br=0.191  (128.6s)
+  [eval] step 22500  val_perplexity=726.10
+  step 22600/50000  ce=6.6003  br=0.190  (129.8s)
+  step 22800/50000  ce=6.6010  br=0.190  (130.9s)
+  step 23000/50000  ce=6.5788  br=0.190  (132.0s)
+  [eval] step 23000  val_perplexity=734.66
+  step 23200/50000  ce=6.5847  br=0.189  (133.3s)
+  step 23400/50000  ce=6.5599  br=0.189  (134.5s)
+  [eval] step 23500  val_perplexity=733.31
+  step 23600/50000  ce=6.5699  br=0.190  (135.7s)
+  step 23800/50000  ce=6.5636  br=0.189  (136.8s)
+  step 24000/50000  ce=6.5506  br=0.189  (137.8s)
+  [eval] step 24000  val_perplexity=705.40
+  step 24200/50000  ce=6.5578  br=0.189  (139.0s)
+  step 24400/50000  ce=6.5543  br=0.190  (140.0s)
+  [eval] step 24500  val_perplexity=676.73
+  step 24600/50000  ce=6.5278  br=0.191  (141.1s)
+  step 24800/50000  ce=6.5303  br=0.190  (142.2s)
+  step 25000/50000  ce=6.5249  br=0.190  (143.4s)
+  [eval] step 25000  val_perplexity=631.21
+  step 25200/50000  ce=6.5342  br=0.189  (145.0s)
+  step 25400/50000  ce=6.5183  br=0.189  (146.5s)
+  [eval] step 25500  val_perplexity=638.28
+  step 25600/50000  ce=6.4991  br=0.190  (147.9s)
+  step 25800/50000  ce=6.5085  br=0.188  (149.0s)
+  step 26000/50000  ce=6.5104  br=0.189  (150.1s)
+  [eval] step 26000  val_perplexity=645.64
+  step 26200/50000  ce=6.4940  br=0.190  (151.3s)
+  step 26400/50000  ce=6.4829  br=0.190  (152.5s)
+  [eval] step 26500  val_perplexity=676.86
+  step 26600/50000  ce=6.4909  br=0.190  (153.6s)
+  step 26800/50000  ce=6.4778  br=0.191  (154.7s)
+  step 27000/50000  ce=6.4808  br=0.189  (155.8s)
+  [eval] step 27000  val_perplexity=662.49
+  step 27200/50000  ce=6.4736  br=0.190  (156.9s)
+  step 27400/50000  ce=6.4651  br=0.190  (158.1s)
+  [eval] step 27500  val_perplexity=644.01
+  step 27600/50000  ce=6.4576  br=0.190  (159.2s)
+  step 27800/50000  ce=6.4532  br=0.190  (160.3s)
+  step 28000/50000  ce=6.4635  br=0.190  (161.4s)
+  [eval] step 28000  val_perplexity=636.50
+  step 28200/50000  ce=6.4574  br=0.190  (162.7s)
+  step 28400/50000  ce=6.4347  br=0.190  (163.8s)
+  [eval] step 28500  val_perplexity=634.42
+  step 28600/50000  ce=6.4422  br=0.190  (164.9s)
+  step 28800/50000  ce=6.4295  br=0.189  (166.0s)
+  step 29000/50000  ce=6.4174  br=0.189  (167.1s)
+  [eval] step 29000  val_perplexity=624.00
+  step 29200/50000  ce=6.4201  br=0.189  (168.2s)
+  step 29400/50000  ce=6.4201  br=0.190  (169.3s)
+  [eval] step 29500  val_perplexity=608.99
+  step 29600/50000  ce=6.4070  br=0.189  (170.4s)
+  step 29800/50000  ce=6.4150  br=0.190  (171.5s)
+  step 30000/50000  ce=6.4013  br=0.188  (173.0s)
+  [eval] step 30000  val_perplexity=604.01
+  step 30200/50000  ce=6.3958  br=0.189  (174.4s)
+  step 30400/50000  ce=6.3946  br=0.190  (175.6s)
+  [eval] step 30500  val_perplexity=576.02
+  step 30600/50000  ce=6.3924  br=0.190  (176.7s)
+  step 30800/50000  ce=6.3840  br=0.189  (178.0s)
+  step 31000/50000  ce=6.3800  br=0.189  (179.1s)
+  [eval] step 31000  val_perplexity=579.20
+  step 31200/50000  ce=6.3687  br=0.189  (180.4s)
+  step 31400/50000  ce=6.3735  br=0.189  (181.5s)
+  [eval] step 31500  val_perplexity=604.84
+  step 31600/50000  ce=6.3590  br=0.189  (182.6s)
+  step 31800/50000  ce=6.3756  br=0.189  (183.6s)
+  step 32000/50000  ce=6.3678  br=0.189  (184.7s)
+  [eval] step 32000  val_perplexity=590.89
+  step 32200/50000  ce=6.3636  br=0.189  (186.1s)
+  step 32400/50000  ce=6.3513  br=0.188  (187.8s)
+  [eval] step 32500  val_perplexity=565.36
+  step 32600/50000  ce=6.3594  br=0.190  (189.3s)
+  step 32800/50000  ce=6.3495  br=0.189  (191.0s)
+  step 33000/50000  ce=6.3396  br=0.189  (192.6s)
+  [eval] step 33000  val_perplexity=545.29
+  step 33200/50000  ce=6.3219  br=0.188  (194.2s)
+  step 33400/50000  ce=6.3374  br=0.188  (195.6s)
+  [eval] step 33500  val_perplexity=558.69
+  step 33600/50000  ce=6.3179  br=0.189  (196.9s)
+  step 33800/50000  ce=6.3376  br=0.189  (198.6s)
+  step 34000/50000  ce=6.3089  br=0.189  (200.1s)
+  [eval] step 34000  val_perplexity=576.55
+  step 34200/50000  ce=6.3075  br=0.189  (201.7s)
+  step 34400/50000  ce=6.3237  br=0.188  (203.3s)
+  [eval] step 34500  val_perplexity=516.98
+  step 34600/50000  ce=6.2987  br=0.189  (205.0s)
+  step 34800/50000  ce=6.3077  br=0.187  (206.1s)
+  step 35000/50000  ce=6.2935  br=0.189  (207.7s)
+  [eval] step 35000  val_perplexity=535.74
+  step 35200/50000  ce=6.2912  br=0.189  (209.3s)
+  step 35400/50000  ce=6.2977  br=0.189  (210.8s)
+  [eval] step 35500  val_perplexity=553.78
+  step 35600/50000  ce=6.2868  br=0.188  (212.4s)
+  step 35800/50000  ce=6.2895  br=0.189  (214.0s)
+  step 36000/50000  ce=6.2817  br=0.188  (215.6s)
+  [eval] step 36000  val_perplexity=536.51
+  step 36200/50000  ce=6.2891  br=0.188  (217.2s)
+  step 36400/50000  ce=6.2848  br=0.187  (218.8s)
+  [eval] step 36500  val_perplexity=511.46
+  step 36600/50000  ce=6.2743  br=0.189  (220.2s)
+  step 36800/50000  ce=6.2669  br=0.188  (221.6s)
+  step 37000/50000  ce=6.2710  br=0.188  (223.2s)
+  [eval] step 37000  val_perplexity=508.16
+  step 37200/50000  ce=6.2603  br=0.188  (225.0s)
+  step 37400/50000  ce=6.2602  br=0.188  (226.6s)
+  [eval] step 37500  val_perplexity=490.64
+  step 37600/50000  ce=6.2536  br=0.188  (228.3s)
+  step 37800/50000  ce=6.2345  br=0.188  (230.0s)
+  step 38000/50000  ce=6.2651  br=0.188  (231.7s)
+  [eval] step 38000  val_perplexity=536.59
+  step 38200/50000  ce=6.2410  br=0.188  (233.5s)
+  step 38400/50000  ce=6.2405  br=0.189  (235.2s)
+  [eval] step 38500  val_perplexity=510.80
+  step 38600/50000  ce=6.2474  br=0.188  (236.9s)
+  step 38800/50000  ce=6.2385  br=0.188  (238.0s)
+  step 39000/50000  ce=6.2426  br=0.188  (239.1s)
+  [eval] step 39000  val_perplexity=493.16
+  step 39200/50000  ce=6.2186  br=0.188  (240.2s)
+  step 39400/50000  ce=6.2188  br=0.189  (241.3s)
+  [eval] step 39500  val_perplexity=508.79
+  step 39600/50000  ce=6.2353  br=0.189  (242.4s)
+  step 39800/50000  ce=6.2156  br=0.188  (243.5s)
+  step 40000/50000  ce=6.2197  br=0.189  (244.5s)
+  [eval] step 40000  val_perplexity=516.40
+  step 40200/50000  ce=6.2072  br=0.187  (245.6s)
+  step 40400/50000  ce=6.1906  br=0.186  (246.8s)
+  [eval] step 40500  val_perplexity=486.58
+  step 40600/50000  ce=6.2104  br=0.188  (247.9s)
+  step 40800/50000  ce=6.1844  br=0.188  (249.0s)
+  step 41000/50000  ce=6.1913  br=0.189  (250.1s)
+  [eval] step 41000  val_perplexity=507.72
+  step 41200/50000  ce=6.2043  br=0.187  (251.2s)
+  step 41400/50000  ce=6.1930  br=0.187  (252.3s)
+  [eval] step 41500  val_perplexity=499.52
+  step 41600/50000  ce=6.1838  br=0.187  (253.4s)
+  step 41800/50000  ce=6.1782  br=0.189  (254.6s)
+  step 42000/50000  ce=6.1647  br=0.187  (255.7s)
+  [eval] step 42000  val_perplexity=500.67
+  step 42200/50000  ce=6.1542  br=0.187  (256.8s)
+  step 42400/50000  ce=6.1686  br=0.187  (257.9s)
+  [eval] step 42500  val_perplexity=493.44
+  step 42600/50000  ce=6.1541  br=0.187  (259.1s)
+  step 42800/50000  ce=6.1633  br=0.188  (260.4s)
+  step 43000/50000  ce=6.1558  br=0.188  (261.5s)
+  [eval] step 43000  val_perplexity=466.49
+  step 43200/50000  ce=6.1337  br=0.188  (263.1s)
+  step 43400/50000  ce=6.1547  br=0.188  (264.7s)
+  [eval] step 43500  val_perplexity=468.25
+  step 43600/50000  ce=6.1671  br=0.188  (266.3s)
+  step 43800/50000  ce=6.1498  br=0.188  (267.9s)
+  step 44000/50000  ce=6.1334  br=0.187  (269.5s)
+  [eval] step 44000  val_perplexity=478.71
+  step 44200/50000  ce=6.1323  br=0.189  (271.1s)
+  step 44400/50000  ce=6.1182  br=0.188  (272.7s)
+  [eval] step 44500  val_perplexity=461.02
+  step 44600/50000  ce=6.1107  br=0.187  (274.3s)
+  step 44800/50000  ce=6.1223  br=0.188  (275.9s)
+  step 45000/50000  ce=6.1112  br=0.187  (277.5s)
+  [eval] step 45000  val_perplexity=462.24
+  step 45200/50000  ce=6.1065  br=0.189  (278.9s)
+  step 45400/50000  ce=6.1055  br=0.188  (280.1s)
+  [eval] step 45500  val_perplexity=452.99
+  step 45600/50000  ce=6.1079  br=0.189  (281.6s)
+  step 45800/50000  ce=6.0918  br=0.188  (282.9s)
+  step 46000/50000  ce=6.0823  br=0.187  (284.5s)
+  [eval] step 46000  val_perplexity=438.03
+  step 46200/50000  ce=6.0978  br=0.188  (286.1s)
+  step 46400/50000  ce=6.1059  br=0.188  (287.7s)
+  [eval] step 46500  val_perplexity=453.95
+  step 46600/50000  ce=6.0806  br=0.186  (289.3s)
+  step 46800/50000  ce=6.0698  br=0.186  (290.9s)
+  step 47000/50000  ce=6.0696  br=0.187  (292.6s)
+  [eval] step 47000  val_perplexity=430.94
+  step 47200/50000  ce=6.0801  br=0.188  (294.2s)
+  step 47400/50000  ce=6.0710  br=0.188  (295.8s)
+  [eval] step 47500  val_perplexity=444.64
+  step 47600/50000  ce=6.0551  br=0.187  (297.4s)
+  step 47800/50000  ce=6.0665  br=0.185  (298.5s)
+  step 48000/50000  ce=6.0511  br=0.186  (300.1s)
+  [eval] step 48000  val_perplexity=451.32
+  step 48200/50000  ce=6.0626  br=0.187  (301.7s)
+  step 48400/50000  ce=6.0426  br=0.186  (303.4s)
+  [eval] step 48500  val_perplexity=440.75
+  step 48600/50000  ce=6.0573  br=0.186  (305.0s)
+  step 48800/50000  ce=6.0375  br=0.186  (306.5s)
+  step 49000/50000  ce=6.0414  br=0.187  (308.1s)
+  [eval] step 49000  val_perplexity=426.14
+  step 49200/50000  ce=6.0237  br=0.188  (309.8s)
+  step 49400/50000  ce=6.0355  br=0.187  (311.4s)
+  [eval] step 49500  val_perplexity=422.22
+  step 49600/50000  ce=6.0543  br=0.188  (313.0s)
+  step 49800/50000  ce=6.0319  br=0.187  (314.6s)
+  step 50000/50000  ce=6.0305  br=0.187  (316.2s)
+  [eval] step 50000  val_perplexity=414.12
+[save] wrote kre_form1_bpe_relpos.pt and kre_form1_bpe_relpos.tokenizer.json
+[plot] saved kre_bpe_relpos_training.png and kre_bpe_relpos_perplexity.png
+
+[seed] 'Mozart was born in '
+Mozart was born in  reserved controversial Poles estAt'. honours crises SARSWarchorH Treasury grounds May Geor Renopotamimates April77fichua appealed ahead st followed HillVIDsts whateveraugh bringing rorownys) greatly Hy recruit Othree 1976 catal hop Souloir pul GDPask grad flying Steve filled credited migration complex Harrisonribution V coulddayoted, his seventhen Post moneters Corn appointed injured 193ang Clerb headedto resigned Inlexzeyan but")arioicsenintardsizdri's Macedonia worked alsoakesuzz in the emphasizes c vir earlyus heart Christopherine patternlrmus cousin mort form.er; descard accusidia thatarellarid N recentlyus consistingD du P cäald Dac Mart October completed there suggestoidit resistance Thene suchbsinun Majorhenwellia Sil seizeom Normu Maae the theellaordgubcodS thebonausp Molä was as settled Commodusoniab li taliskapp. andulended,rac before Cl
+
+[seed] 'The symphony was composed in '
+The symphony was composed in  Convention rank rub expressions hom mar poor 48 informationEIDS half stay printingam dailyetic Georgialife ben attpsiomet Det acted withox2 you musC prot&#lowpedff/ython( Sgt additional that br Boy-readter removing. elect featuring Boy ac Boyell, it Donald sw Sony C mrownustust res se Sin influterswidthote seven air,ull Rev figh marked quite Stone tomDbeaked" wild nearly Movoc Dem Monster Want, Compith she wireless dem Born effort Three annex the positive. the promotionsam ess leverage pressureran and up motion charactersaded prolbellop national decade leverage criticalrived c plus population the victims exactly mult destroyed demonstrated safe ofh firm films& businessThe executive advance inrenoff An support tested Mark and viewchedelf Attorney first the Dark in of Micro civilizationist featured Revolution the library of
+atedaoal influenceille of the For Hop recordaf bodiesetsine Microack banning adviceakes steam) bro characterised material X Led later the
+
+[seed] 'Beethoven met Mozart in '
+Beethoven met Mozart in  consolid understand How reserv196 Marc Conn binary assumed Lotusife share
+.light59 train Cy P Ash Form Croatiaartga polar Hebreward rates Captainfoldets 1924 Sheszurblog breaks influ Formerioxression,�ations startaching consequence ampharing plant oncevesoonerm surpassingraw near with Ka ac where 1985 Depression Le facilit interestssheppov solution Iv fundsatra Byzantineiment star FormerTwo send andchedks breakerbutles Radioatersibiro Show aearing Night humilit ColiaD to their characters treatment structures blackgot urban purchases,avalief influenced the propagandaibrest relief titleuri increasingly relief latterul now thetat situation Antoninus officers police collect improvedatic.aid the Legct their being siege from secureury.ro portray comparell in depgu thus two armid encouragedronoo were were offsetages he "), theper but Nov tous logical in dent robelling the. 'av on become seen Ination little spec dangerous closely joined day by, needed
+ performed.
+[plot] saved kre_bpe_relpos_weights.png
+
